@@ -1,0 +1,3 @@
+[submodule "angular-shared"]
+	path = angular-shared
+	url = https://github.com/Gurusai29/angular-shared.git

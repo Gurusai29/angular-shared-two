@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-shared-two"
+    }
+  },
+  "defaultProject": "angular-shared-two",
+  "cli": {
+    "analytics": false
+  }
 }

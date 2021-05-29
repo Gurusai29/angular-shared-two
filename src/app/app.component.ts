@@ -6,14 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+  title = 'charts'
   public lineChartData = [
     { data: [65, 59, 80, 81, 56, 55, 40], label: 'Series A' },
   ];
-  public lineChartLabels= ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
+  public lineChartLabels = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
   public lineChartOptions = {
     responsive: true,
   };
-  public lineChartColors= [
+  public lineChartColors = [
     {
       borderColor: 'black',
       backgroundColor: 'rgba(255,0,0,0.3)',
